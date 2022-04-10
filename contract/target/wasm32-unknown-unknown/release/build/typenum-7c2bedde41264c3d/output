@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/mdidin/Desktop/firstCasperProject/contract/target/wasm32-unknown-unknown/release/build/typenum-7c2bedde41264c3d/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/mdidin/Desktop/firstCasperProject/contract/target/wasm32-unknown-unknown/release/build/typenum-7c2bedde41264c3d/out/op.rs

@@ -1,0 +1,12 @@
+/Users/mdidin/Desktop/firstCasperProject/tests/target/debug/deps/num_bigint-736db8197f835802.rmeta: /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/lib.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/macros.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/bigint.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/biguint.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/algorithms.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/monty.rs
+
+/Users/mdidin/Desktop/firstCasperProject/tests/target/debug/deps/libnum_bigint-736db8197f835802.rlib: /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/lib.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/macros.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/bigint.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/biguint.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/algorithms.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/monty.rs
+
+/Users/mdidin/Desktop/firstCasperProject/tests/target/debug/deps/num_bigint-736db8197f835802.d: /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/lib.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/macros.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/bigint.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/biguint.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/algorithms.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/monty.rs
+
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/lib.rs:
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/macros.rs:
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/bigint.rs:
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/biguint.rs:
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/algorithms.rs:
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/monty.rs:
