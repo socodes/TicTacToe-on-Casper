@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <div id="intro-section">
+
+      <div id="title-status">
+        <h2 id="status">Status: Not Doing Anything</h2>
+        <h2 id="score">Score: 0</h2>
+        <h2 id="highscore">Highscore: null</h2>
+      </div>
+
+
+
+      <h2 id="connected-account">Connected Account: </h2>
+      <h2 class="message">Choose your player:</h2>
+      <form action="#">
+        <fieldset>
+          <input type="radio" name="player-choice" id="player-choice-1" value="X" />
+          <label for="player-choice-1">X</label>
+          <input type="radio" name="player-choice" id="player-choice-2" value="O" />
+          <label for="player-choice-2">O</label>
+        </fieldset>
+        <button id="reset" class="btn btn-primary">Reset</button>
+      </form>
+    </div>
+    <div class="row" id="grid-section">
+      <div id="grid"></div>
+    </div>
+    <div id="buttonWrapper">
+      <button id="button" onclick="buttonPressed()">Connect</button>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js" integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="casper-js-sdk.js"></script>
+  <script src="contract-interaction.js"></script>
+  <script src="index.js"></script>
+</body>

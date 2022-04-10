@@ -1,0 +1,15 @@
+[package]
+name = "highscore"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+casper-contract = "1.4.3"
+casper-types = "1.4.4"
+
+[[bin]]
+name = "highscore"
+path = "src/highscore.rs"
+bench = false
+doctest = false
+test = false

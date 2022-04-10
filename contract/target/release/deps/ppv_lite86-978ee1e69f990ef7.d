@@ -1,0 +1,11 @@
+/Users/mdidin/Desktop/rpc-workshop-1-template/contract/target/release/deps/ppv_lite86-978ee1e69f990ef7.rmeta: /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/lib.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/soft.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/types.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/x86_64/mod.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/x86_64/sse2.rs
+
+/Users/mdidin/Desktop/rpc-workshop-1-template/contract/target/release/deps/libppv_lite86-978ee1e69f990ef7.rlib: /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/lib.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/soft.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/types.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/x86_64/mod.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/x86_64/sse2.rs
+
+/Users/mdidin/Desktop/rpc-workshop-1-template/contract/target/release/deps/ppv_lite86-978ee1e69f990ef7.d: /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/lib.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/soft.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/types.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/x86_64/mod.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/x86_64/sse2.rs
+
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/lib.rs:
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/soft.rs:
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/types.rs:
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/x86_64/mod.rs:
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.16/src/x86_64/sse2.rs:

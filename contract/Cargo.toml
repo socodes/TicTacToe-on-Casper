@@ -1,20 +1,11 @@
-[package]
-name = "contract"
-version = "0.1.0"
-edition = "2018"
+[workspace]
 
-[dependencies]
-casper-contract = "1.4.3"
-casper-types = "1.4.6"
-
-[[bin]]
-name = "contract"
-path = "src/main.rs"
-bench = false
-doctest = false
-test = false
+members = [
+    "contract",
+    "tests"
+]
 
 [profile.release]
-codegen-units = 1
 lto = true
-
+opt-level = "z"
+casper-client = "1.4.3"

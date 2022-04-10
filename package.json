@@ -1,0 +1,25 @@
+{
+  "name": "rpc-workshop-1-template",
+  "version": "1.0.0",
+  "description": "This is the repository for Casper's upcoming workshop in which the audience will build a tic-tac-toe game and play against the computer, and users highscores (denominated in successive wins) will be saved on-chain.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/casper-ecosystem/rpc-workshop-1-template.git"
+  },
+  "author": "Dylan Ireland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/casper-ecosystem/rpc-workshop-1-template/issues"
+  },
+  "homepage": "https://github.com/casper-ecosystem/rpc-workshop-1-template#readme",
+  "dependencies": {
+    "casper-client-sdk": "^1.4.2",
+    "casper-js-sdk": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}

@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+    "contract",
+]
+
+[profile.release]
+lto = true
+opt-level = "z"
+casper-client = "1.4.3"
