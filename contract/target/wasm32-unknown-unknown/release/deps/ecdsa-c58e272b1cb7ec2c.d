@@ -1,0 +1,12 @@
+/Users/mdidin/Desktop/rpc-workshop-1-template/contract/target/wasm32-unknown-unknown/release/deps/ecdsa-c58e272b1cb7ec2c.rmeta: /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/lib.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/asn1.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/hazmat.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/rfc6979.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/sign.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/verify.rs
+
+/Users/mdidin/Desktop/rpc-workshop-1-template/contract/target/wasm32-unknown-unknown/release/deps/libecdsa-c58e272b1cb7ec2c.rlib: /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/lib.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/asn1.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/hazmat.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/rfc6979.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/sign.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/verify.rs
+
+/Users/mdidin/Desktop/rpc-workshop-1-template/contract/target/wasm32-unknown-unknown/release/deps/ecdsa-c58e272b1cb7ec2c.d: /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/lib.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/asn1.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/hazmat.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/rfc6979.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/sign.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/verify.rs
+
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/lib.rs:
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/asn1.rs:
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/hazmat.rs:
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/rfc6979.rs:
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/sign.rs:
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/ecdsa-0.10.2/src/verify.rs:

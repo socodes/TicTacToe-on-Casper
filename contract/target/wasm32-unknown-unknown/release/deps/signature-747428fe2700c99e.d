@@ -1,0 +1,11 @@
+/Users/mdidin/Desktop/rpc-workshop-1-template/contract/target/wasm32-unknown-unknown/release/deps/signature-747428fe2700c99e.rmeta: /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/lib.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/error.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/signature.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/signer.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/verifier.rs
+
+/Users/mdidin/Desktop/rpc-workshop-1-template/contract/target/wasm32-unknown-unknown/release/deps/libsignature-747428fe2700c99e.rlib: /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/lib.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/error.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/signature.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/signer.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/verifier.rs
+
+/Users/mdidin/Desktop/rpc-workshop-1-template/contract/target/wasm32-unknown-unknown/release/deps/signature-747428fe2700c99e.d: /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/lib.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/error.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/signature.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/signer.rs /Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/verifier.rs
+
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/lib.rs:
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/error.rs:
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/signature.rs:
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/signer.rs:
+/Users/mdidin/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.2.2/src/verifier.rs:
