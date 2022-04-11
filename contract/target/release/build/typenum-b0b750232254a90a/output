@@ -1,2 +1,0 @@
-cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/mdidin/Desktop/rpc-workshop-1-template/contract/target/release/build/typenum-b0b750232254a90a/out/consts.rs
-cargo:rustc-env=TYPENUM_BUILD_OP=/Users/mdidin/Desktop/rpc-workshop-1-template/contract/target/release/build/typenum-b0b750232254a90a/out/op.rs

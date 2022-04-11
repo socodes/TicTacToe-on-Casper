@@ -1,1 +1,1 @@
-/Users/mdidin/Desktop/rpc-workshop-1-template/contract/target/wasm32-unknown-unknown/release/highscore.wasm: /Users/mdidin/Desktop/rpc-workshop-1-template/contract/contract/src/highscore.rs
+/Users/dylanireland/Desktop/CASPER/rpc-workshop-1/contract/target/wasm32-unknown-unknown/release/highscore.wasm: /Users/dylanireland/Desktop/CASPER/rpc-workshop-1/contract/contract/src/highscore.rs

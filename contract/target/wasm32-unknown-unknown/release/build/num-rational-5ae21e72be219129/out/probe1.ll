@@ -1,5 +1,5 @@
-; ModuleID = 'probe1.b27af47b-cgu.0'
-source_filename = "probe1.b27af47b-cgu.0"
+; ModuleID = 'probe1.eba514d4-cgu.0'
+source_filename = "probe1.eba514d4-cgu.0"
 target datalayout = "e-m:e-p:32:32-p10:8:8-p20:8:8-i64:64-n32:64-S128-ni:1:10:20"
 target triple = "wasm32-unknown-unknown"
 
@@ -16,7 +16,7 @@ target triple = "wasm32-unknown-unknown"
 %"core::ops::control_flow::ControlFlow<core::result::Result<core::convert::Infallible, core::alloc::layout::LayoutError>, usize>::Continue" = type { [1 x i32], i32 }
 %"core::result::Result<usize, core::alloc::layout::LayoutError>::Err" = type { [4 x i8], %"core::alloc::layout::LayoutError" }
 %"core::result::Result<usize, core::alloc::layout::LayoutError>::Ok" = type { [1 x i32], i32 }
-%"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>" = type { [2 x i32], i32 }
+%"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>" = type { {}*, [2 x i32] }
 %"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>::Some" = type { { i8*, { i32, i32 } } }
 %"alloc::alloc::Global" = type {}
 %"core::result::Result<core::convert::Infallible, core::alloc::layout::LayoutError>::Err" = type { %"core::alloc::layout::LayoutError" }
@@ -25,26 +25,26 @@ target triple = "wasm32-unknown-unknown"
 @alloc7 = private unnamed_addr constant <{ [12 x i8] }> <{ [12 x i8] c"invalid args" }>, align 1
 @alloc8 = private unnamed_addr constant <{ i8*, [4 x i8] }> <{ i8* getelementptr inbounds (<{ [12 x i8] }>, <{ [12 x i8] }>* @alloc7, i32 0, i32 0, i32 0), [4 x i8] c"\0C\00\00\00" }>, align 4
 @alloc2 = private unnamed_addr constant <{}> zeroinitializer, align 4
-@alloc43 = private unnamed_addr constant <{ [75 x i8] }> <{ [75 x i8] c"/rustc/8bf93e9b6791acee3a594ed202fdfe45ad9952b5/library/core/src/fmt/mod.rs" }>, align 1
-@alloc44 = private unnamed_addr constant <{ i8*, [12 x i8] }> <{ i8* getelementptr inbounds (<{ [75 x i8] }>, <{ [75 x i8] }>* @alloc43, i32 0, i32 0, i32 0), [12 x i8] c"K\00\00\00\85\01\00\00\0D\00\00\00" }>, align 4
-@alloc45 = private unnamed_addr constant <{ [80 x i8] }> <{ [80 x i8] c"/rustc/8bf93e9b6791acee3a594ed202fdfe45ad9952b5/library/core/src/alloc/layout.rs" }>, align 1
-@alloc46 = private unnamed_addr constant <{ i8*, [12 x i8] }> <{ i8* getelementptr inbounds (<{ [80 x i8] }>, <{ [80 x i8] }>* @alloc45, i32 0, i32 0, i32 0), [12 x i8] c"P\00\00\00\97\01\00\00\1A\00\00\00" }>, align 4
-@alloc47 = private unnamed_addr constant <{ [76 x i8] }> <{ [76 x i8] c"/rustc/8bf93e9b6791acee3a594ed202fdfe45ad9952b5/library/alloc/src/raw_vec.rs" }>, align 1
-@alloc48 = private unnamed_addr constant <{ i8*, [12 x i8] }> <{ i8* getelementptr inbounds (<{ [76 x i8] }>, <{ [76 x i8] }>* @alloc47, i32 0, i32 0, i32 0), [12 x i8] c"L\00\00\00\F8\00\00\00;\00\00\00" }>, align 4
+@alloc11 = private unnamed_addr constant <{ [75 x i8] }> <{ [75 x i8] c"/rustc/461e8078010433ff7de2db2aaae8a3cfb0847215/library/core/src/fmt/mod.rs" }>, align 1
+@alloc12 = private unnamed_addr constant <{ i8*, [12 x i8] }> <{ i8* getelementptr inbounds (<{ [75 x i8] }>, <{ [75 x i8] }>* @alloc11, i32 0, i32 0, i32 0), [12 x i8] c"K\00\00\00\81\01\00\00\0D\00\00\00" }>, align 4
+@alloc13 = private unnamed_addr constant <{ [80 x i8] }> <{ [80 x i8] c"/rustc/461e8078010433ff7de2db2aaae8a3cfb0847215/library/core/src/alloc/layout.rs" }>, align 1
+@alloc14 = private unnamed_addr constant <{ i8*, [12 x i8] }> <{ i8* getelementptr inbounds (<{ [80 x i8] }>, <{ [80 x i8] }>* @alloc13, i32 0, i32 0, i32 0), [12 x i8] c"P\00\00\00\98\01\00\00\1A\00\00\00" }>, align 4
+@alloc15 = private unnamed_addr constant <{ [76 x i8] }> <{ [76 x i8] c"/rustc/461e8078010433ff7de2db2aaae8a3cfb0847215/library/alloc/src/raw_vec.rs" }>, align 1
+@alloc16 = private unnamed_addr constant <{ i8*, [12 x i8] }> <{ i8* getelementptr inbounds (<{ [76 x i8] }>, <{ [76 x i8] }>* @alloc15, i32 0, i32 0, i32 0), [12 x i8] c"L\00\00\00\F7\00\00\00;\00\00\00" }>, align 4
 @alloc3 = private unnamed_addr constant <{ i8*, [4 x i8] }> <{ i8* bitcast (<{}>* @alloc2 to i8*), [4 x i8] zeroinitializer }>, align 4
 @alloc5 = private unnamed_addr constant <{ [4 x i8] }> zeroinitializer, align 4
 
 ; <core::ptr::non_null::NonNull<T> as core::convert::From<core::ptr::unique::Unique<T>>>::from
 ; Function Attrs: inlinehint nounwind
-define hidden i8* @"_ZN119_$LT$core..ptr..non_null..NonNull$LT$T$GT$$u20$as$u20$core..convert..From$LT$core..ptr..unique..Unique$LT$T$GT$$GT$$GT$4from17h47222f8f6e27f3e6E"(i8* %unique) unnamed_addr #0 {
+define hidden i8* @"_ZN119_$LT$core..ptr..non_null..NonNull$LT$T$GT$$u20$as$u20$core..convert..From$LT$core..ptr..unique..Unique$LT$T$GT$$GT$$GT$4from17h40befd3173ad9418E"(i8* %unique) unnamed_addr #0 {
 start:
 ; call core::ptr::unique::Unique<T>::as_ptr
-  %_2 = call i8* @"_ZN4core3ptr6unique15Unique$LT$T$GT$6as_ptr17hd192c210b0f5fbf4E"(i8* %unique) #8
+  %_2 = call i8* @"_ZN4core3ptr6unique15Unique$LT$T$GT$6as_ptr17ha4a67637f8c6a328E"(i8* %unique) #8
   br label %bb1
 
 bb1:                                              ; preds = %start
 ; call core::ptr::non_null::NonNull<T>::new_unchecked
-  %0 = call i8* @"_ZN4core3ptr8non_null16NonNull$LT$T$GT$13new_unchecked17ha9838eb3c470bcaeE"(i8* %_2) #8
+  %0 = call i8* @"_ZN4core3ptr8non_null16NonNull$LT$T$GT$13new_unchecked17h2d217b8cd4f71397E"(i8* %_2) #8
   br label %bb2
 
 bb2:                                              ; preds = %bb1
@@ -53,11 +53,11 @@ bb2:                                              ; preds = %bb1
 
 ; <core::result::Result<T,F> as core::ops::try_trait::FromResidual<core::result::Result<core::convert::Infallible,E>>>::from_residual
 ; Function Attrs: inlinehint nounwind
-define hidden { i32, i32 } @"_ZN153_$LT$core..result..Result$LT$T$C$F$GT$$u20$as$u20$core..ops..try_trait..FromResidual$LT$core..result..Result$LT$core..convert..Infallible$C$E$GT$$GT$$GT$13from_residual17h6d84b636774a6cddE"(%"core::panic::location::Location"* align 4 %0) unnamed_addr #0 {
+define hidden { i32, i32 } @"_ZN153_$LT$core..result..Result$LT$T$C$F$GT$$u20$as$u20$core..ops..try_trait..FromResidual$LT$core..result..Result$LT$core..convert..Infallible$C$E$GT$$GT$$GT$13from_residual17h60c4a28218780ed9E"(%"core::panic::location::Location"* align 4 %0) unnamed_addr #0 {
 start:
   %1 = alloca { i32, i32 }, align 4
 ; call <T as core::convert::From<T>>::from
-  call void @"_ZN50_$LT$T$u20$as$u20$core..convert..From$LT$T$GT$$GT$4from17hd2334010f2ba18d2E"() #8
+  call void @"_ZN50_$LT$T$u20$as$u20$core..convert..From$LT$T$GT$$GT$4from17hcb9a821214d3c86cE"() #8
   br label %bb1
 
 bb1:                                              ; preds = %start
@@ -68,7 +68,7 @@ bb1:                                              ; preds = %start
   %5 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %1, i32 0, i32 0
   %6 = load i32, i32* %5, align 4
   %7 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %1, i32 0, i32 1
-  %8 = load i32, i32* %7, align 4, !range !0, !noundef !1
+  %8 = load i32, i32* %7, align 4
   %9 = insertvalue { i32, i32 } undef, i32 %6, 0
   %10 = insertvalue { i32, i32 } %9, i32 %8, 1
   ret { i32, i32 } %10
@@ -76,10 +76,10 @@ bb1:                                              ; preds = %start
 
 ; core::fmt::ArgumentV1::new_lower_exp
 ; Function Attrs: inlinehint nounwind
-define hidden { i8*, i32* } @_ZN4core3fmt10ArgumentV113new_lower_exp17h7031b2d99bba48b2E(i32* align 4 %x) unnamed_addr #0 {
+define hidden { i8*, i32* } @_ZN4core3fmt10ArgumentV113new_lower_exp17h8e154801d527845cE(i32* align 4 %x) unnamed_addr #0 {
 start:
 ; call core::fmt::ArgumentV1::new
-  %0 = call { i8*, i32* } @_ZN4core3fmt10ArgumentV13new17h14ef0eb57e2a4e8fE(i32* align 4 %x, i1 (i32*, %"core::fmt::Formatter"*)* @"_ZN4core3fmt3num3imp55_$LT$impl$u20$core..fmt..LowerExp$u20$for$u20$isize$GT$3fmt17hf86ff17406c43942E") #8
+  %0 = call { i8*, i32* } @_ZN4core3fmt10ArgumentV13new17hc3bf0e14b5ad3170E(i32* align 4 %x, i1 (i32*, %"core::fmt::Formatter"*)* @"_ZN4core3fmt3num3imp55_$LT$impl$u20$core..fmt..LowerExp$u20$for$u20$isize$GT$3fmt17habc463f88e4387dcE") #8
   %1 = extractvalue { i8*, i32* } %0, 0
   %2 = extractvalue { i8*, i32* } %0, 1
   br label %bb1
@@ -92,20 +92,20 @@ bb1:                                              ; preds = %start
 
 ; core::fmt::ArgumentV1::new
 ; Function Attrs: inlinehint nounwind
-define hidden { i8*, i32* } @_ZN4core3fmt10ArgumentV13new17h14ef0eb57e2a4e8fE(i32* align 4 %x, i1 (i32*, %"core::fmt::Formatter"*)* %f) unnamed_addr #0 {
+define hidden { i8*, i32* } @_ZN4core3fmt10ArgumentV13new17hc3bf0e14b5ad3170E(i32* align 4 %x, i1 (i32*, %"core::fmt::Formatter"*)* %f) unnamed_addr #0 {
 start:
   %0 = alloca %"core::fmt::Opaque"*, align 4
   %1 = alloca i1 (%"core::fmt::Opaque"*, %"core::fmt::Formatter"*)*, align 4
   %2 = alloca { i8*, i32* }, align 4
   %3 = bitcast i1 (i32*, %"core::fmt::Formatter"*)* %f to i1 (%"core::fmt::Opaque"*, %"core::fmt::Formatter"*)*
   store i1 (%"core::fmt::Opaque"*, %"core::fmt::Formatter"*)* %3, i1 (%"core::fmt::Opaque"*, %"core::fmt::Formatter"*)** %1, align 4
-  %_3 = load i1 (%"core::fmt::Opaque"*, %"core::fmt::Formatter"*)*, i1 (%"core::fmt::Opaque"*, %"core::fmt::Formatter"*)** %1, align 4, !nonnull !1, !noundef !1
+  %_3 = load i1 (%"core::fmt::Opaque"*, %"core::fmt::Formatter"*)*, i1 (%"core::fmt::Opaque"*, %"core::fmt::Formatter"*)** %1, align 4, !nonnull !0, !noundef !0
   br label %bb1
 
 bb1:                                              ; preds = %start
   %4 = bitcast i32* %x to %"core::fmt::Opaque"*
   store %"core::fmt::Opaque"* %4, %"core::fmt::Opaque"** %0, align 4
-  %_5 = load %"core::fmt::Opaque"*, %"core::fmt::Opaque"** %0, align 4, !nonnull !1, !align !2, !noundef !1
+  %_5 = load %"core::fmt::Opaque"*, %"core::fmt::Opaque"** %0, align 4, !nonnull !0, !align !1, !noundef !0
   br label %bb2
 
 bb2:                                              ; preds = %bb1
@@ -115,9 +115,9 @@ bb2:                                              ; preds = %bb1
   %7 = bitcast i32** %6 to i1 (%"core::fmt::Opaque"*, %"core::fmt::Formatter"*)**
   store i1 (%"core::fmt::Opaque"*, %"core::fmt::Formatter"*)* %_3, i1 (%"core::fmt::Opaque"*, %"core::fmt::Formatter"*)** %7, align 4
   %8 = getelementptr inbounds { i8*, i32* }, { i8*, i32* }* %2, i32 0, i32 0
-  %9 = load i8*, i8** %8, align 4, !nonnull !1, !align !2, !noundef !1
+  %9 = load i8*, i8** %8, align 4, !nonnull !0, !align !1, !noundef !0
   %10 = getelementptr inbounds { i8*, i32* }, { i8*, i32* }* %2, i32 0, i32 1
-  %11 = load i32*, i32** %10, align 4, !nonnull !1, !noundef !1
+  %11 = load i32*, i32** %10, align 4, !nonnull !0, !noundef !0
   %12 = insertvalue { i8*, i32* } undef, i8* %9, 0
   %13 = insertvalue { i8*, i32* } %12, i32* %11, 1
   ret { i8*, i32* } %13
@@ -125,7 +125,7 @@ bb2:                                              ; preds = %bb1
 
 ; core::fmt::Arguments::new_v1
 ; Function Attrs: inlinehint nounwind
-define internal void @_ZN4core3fmt9Arguments6new_v117ha17c6590b40874b1E(%"core::fmt::Arguments"* sret(%"core::fmt::Arguments") %0, [0 x { [0 x i8]*, i32 }]* align 4 %pieces.0, i32 %pieces.1, [0 x { i8*, i32* }]* align 4 %args.0, i32 %args.1) unnamed_addr #0 {
+define internal void @_ZN4core3fmt9Arguments6new_v117h8b058f324ffa8ca3E(%"core::fmt::Arguments"* sret(%"core::fmt::Arguments") %0, [0 x { [0 x i8]*, i32 }]* align 4 %pieces.0, i32 %pieces.1, [0 x { i8*, i32* }]* align 4 %args.0, i32 %args.1) unnamed_addr #0 {
 start:
   %_23 = alloca { i32*, i32 }, align 4
   %_15 = alloca %"core::fmt::Arguments", align 4
@@ -145,7 +145,7 @@ bb1:                                              ; preds = %start
   br label %bb3
 
 bb3:                                              ; preds = %bb2, %bb1
-  %2 = load i8, i8* %_3, align 1, !range !3, !noundef !1
+  %2 = load i8, i8* %_3, align 1, !range !2, !noundef !0
   %3 = trunc i8 %2 to i1
   br i1 %3, label %bb4, label %bb6
 
@@ -159,7 +159,7 @@ bb6:                                              ; preds = %bb3
   store i32 %pieces.1, i32* %7, align 4
   %8 = getelementptr inbounds %"core::fmt::Arguments", %"core::fmt::Arguments"* %0, i32 0, i32 1
   %9 = getelementptr inbounds { i32*, i32 }, { i32*, i32 }* %_23, i32 0, i32 0
-  %10 = load i32*, i32** %9, align 4, !align !4
+  %10 = load i32*, i32** %9, align 4, !align !3
   %11 = getelementptr inbounds { i32*, i32 }, { i32*, i32 }* %_23, i32 0, i32 1
   %12 = load i32, i32* %11, align 4
   %13 = getelementptr inbounds { i32*, i32 }, { i32*, i32 }* %8, i32 0, i32 0
@@ -175,47 +175,18 @@ bb6:                                              ; preds = %bb3
 
 bb4:                                              ; preds = %bb3
 ; call core::fmt::Arguments::new_v1
-  call void @_ZN4core3fmt9Arguments6new_v117ha17c6590b40874b1E(%"core::fmt::Arguments"* sret(%"core::fmt::Arguments") %_15, [0 x { [0 x i8]*, i32 }]* align 4 bitcast (<{ i8*, [4 x i8] }>* @alloc8 to [0 x { [0 x i8]*, i32 }]*), i32 1, [0 x { i8*, i32* }]* align 4 bitcast (<{}>* @alloc2 to [0 x { i8*, i32* }]*), i32 0) #8
+  call void @_ZN4core3fmt9Arguments6new_v117h8b058f324ffa8ca3E(%"core::fmt::Arguments"* sret(%"core::fmt::Arguments") %_15, [0 x { [0 x i8]*, i32 }]* align 4 bitcast (<{ i8*, [4 x i8] }>* @alloc8 to [0 x { [0 x i8]*, i32 }]*), i32 1, [0 x { i8*, i32* }]* align 4 bitcast (<{}>* @alloc2 to [0 x { i8*, i32* }]*), i32 0) #8
   br label %bb5
 
 bb5:                                              ; preds = %bb4
 ; call core::panicking::panic_fmt
-  call void @_ZN4core9panicking9panic_fmt17h5b985bbf693fc49aE(%"core::fmt::Arguments"* %_15, %"core::panic::location::Location"* align 4 bitcast (<{ i8*, [12 x i8] }>* @alloc44 to %"core::panic::location::Location"*)) #9
+  call void @_ZN4core9panicking9panic_fmt17h1dc9cdb34d63111bE(%"core::fmt::Arguments"* %_15, %"core::panic::location::Location"* align 4 bitcast (<{ i8*, [12 x i8] }>* @alloc12 to %"core::panic::location::Location"*)) #9
   unreachable
-}
-
-; core::mem::valid_align::ValidAlign::as_nonzero
-; Function Attrs: inlinehint nounwind
-define internal i32 @_ZN4core3mem11valid_align10ValidAlign10as_nonzero17h12d4d12631c12789E(i32 %self) unnamed_addr #0 {
-start:
-  %0 = icmp uge i32 %self, 1
-  call void @llvm.assume(i1 %0)
-  %1 = icmp ule i32 %self, -2147483648
-  call void @llvm.assume(i1 %1)
-; call core::num::nonzero::NonZeroUsize::new_unchecked
-  %2 = call i32 @_ZN4core3num7nonzero12NonZeroUsize13new_unchecked17h823a4264c7cbf135E(i32 %self) #8, !range !5
-  br label %bb1
-
-bb1:                                              ; preds = %start
-  ret i32 %2
-}
-
-; core::mem::valid_align::ValidAlign::new_unchecked
-; Function Attrs: inlinehint nounwind
-define internal i32 @_ZN4core3mem11valid_align10ValidAlign13new_unchecked17h159f84d42f48a82dE(i32 %align) unnamed_addr #0 {
-start:
-  %0 = alloca i32, align 4
-  store i32 %align, i32* %0, align 4
-  %1 = load i32, i32* %0, align 4, !range !6, !noundef !1
-  br label %bb1
-
-bb1:                                              ; preds = %start
-  ret i32 %1
 }
 
 ; core::num::<impl usize>::checked_mul
 ; Function Attrs: inlinehint nounwind
-define internal { i32, i32 } @"_ZN4core3num23_$LT$impl$u20$usize$GT$11checked_mul17h63592c0d3afcef74E"(i32 %self, i32 %rhs) unnamed_addr #0 {
+define internal { i32, i32 } @"_ZN4core3num23_$LT$impl$u20$usize$GT$11checked_mul17hfc22d7494272cb4aE"(i32 %self, i32 %rhs) unnamed_addr #0 {
 start:
   %0 = alloca { i32, i8 }, align 4
   %1 = alloca { i32, i8 }, align 4
@@ -232,7 +203,7 @@ start:
   %10 = getelementptr inbounds { i32, i8 }, { i32, i8 }* %0, i32 0, i32 0
   %_5.0.i = load i32, i32* %10, align 4
   %11 = getelementptr inbounds { i32, i8 }, { i32, i8 }* %0, i32 0, i32 1
-  %12 = load i8, i8* %11, align 4, !range !3, !noundef !1
+  %12 = load i8, i8* %11, align 4, !range !2, !noundef !0
   %_5.1.i = trunc i8 %12 to i1
   %13 = bitcast { i32, i8 }* %1 to i32*
   store i32 %_5.0.i, i32* %13, align 4
@@ -242,7 +213,7 @@ start:
   %16 = getelementptr inbounds { i32, i8 }, { i32, i8 }* %1, i32 0, i32 0
   %17 = load i32, i32* %16, align 4
   %18 = getelementptr inbounds { i32, i8 }, { i32, i8 }* %1, i32 0, i32 1
-  %19 = load i8, i8* %18, align 4, !range !3, !noundef !1
+  %19 = load i8, i8* %18, align 4, !range !2, !noundef !0
   %20 = trunc i8 %19 to i1
   %21 = zext i1 %20 to i8
   %22 = insertvalue { i32, i8 } undef, i32 %17, 0
@@ -256,7 +227,7 @@ bb1:                                              ; preds = %start
   %25 = call i1 @llvm.expect.i1(i1 %_5.1, i1 false)
   %26 = zext i1 %25 to i8
   store i8 %26, i8* %2, align 1
-  %27 = load i8, i8* %2, align 1, !range !3, !noundef !1
+  %27 = load i8, i8* %2, align 1, !range !2, !noundef !0
   %_8 = trunc i8 %27 to i1
   br label %bb2
 
@@ -278,7 +249,7 @@ bb3:                                              ; preds = %bb2
 
 bb5:                                              ; preds = %bb4, %bb3
   %32 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %3, i32 0, i32 0
-  %33 = load i32, i32* %32, align 4, !range !7, !noundef !1
+  %33 = load i32, i32* %32, align 4, !range !4, !noundef !0
   %34 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %3, i32 0, i32 1
   %35 = load i32, i32* %34, align 4
   %36 = insertvalue { i32, i32 } undef, i32 %33, 0
@@ -288,31 +259,31 @@ bb5:                                              ; preds = %bb4, %bb3
 
 ; core::num::nonzero::NonZeroUsize::new_unchecked
 ; Function Attrs: inlinehint nounwind
-define internal i32 @_ZN4core3num7nonzero12NonZeroUsize13new_unchecked17h823a4264c7cbf135E(i32 %n) unnamed_addr #0 {
+define internal i32 @_ZN4core3num7nonzero12NonZeroUsize13new_unchecked17h848f7a96f93fa40eE(i32 %n) unnamed_addr #0 {
 start:
   %0 = alloca i32, align 4
   store i32 %n, i32* %0, align 4
-  %1 = load i32, i32* %0, align 4, !range !5, !noundef !1
+  %1 = load i32, i32* %0, align 4, !range !5, !noundef !0
   ret i32 %1
 }
 
 ; core::num::nonzero::NonZeroUsize::get
 ; Function Attrs: inlinehint nounwind
-define internal i32 @_ZN4core3num7nonzero12NonZeroUsize3get17hda3007188dd0b24cE(i32 %self) unnamed_addr #0 {
+define internal i32 @_ZN4core3num7nonzero12NonZeroUsize3get17h4f58588270053797E(i32 %self) unnamed_addr #0 {
 start:
   ret i32 %self
 }
 
 ; core::ptr::slice_from_raw_parts_mut
 ; Function Attrs: inlinehint nounwind
-define hidden { [0 x i8]*, i32 } @_ZN4core3ptr24slice_from_raw_parts_mut17h70963263456a4c0aE(i8* %data, i32 %len) unnamed_addr #0 {
+define hidden { [0 x i8]*, i32 } @_ZN4core3ptr24slice_from_raw_parts_mut17hb819f903dc78bdacE(i8* %data, i32 %len) unnamed_addr #0 {
 start:
   %0 = bitcast i8* %data to {}*
   br label %bb1
 
 bb1:                                              ; preds = %start
 ; call core::ptr::metadata::from_raw_parts_mut
-  %1 = call { [0 x i8]*, i32 } @_ZN4core3ptr8metadata18from_raw_parts_mut17h044a58a37b169fecE({}* %0, i32 %len) #8
+  %1 = call { [0 x i8]*, i32 } @_ZN4core3ptr8metadata18from_raw_parts_mut17he542eb3a3b5d453cE({}* %0, i32 %len) #8
   %2 = extractvalue { [0 x i8]*, i32 } %1, 0
   %3 = extractvalue { [0 x i8]*, i32 } %1, 1
   br label %bb2
@@ -325,11 +296,11 @@ bb2:                                              ; preds = %bb1
 
 ; core::ptr::drop_in_place<alloc::string::String>
 ; Function Attrs: nounwind
-define hidden void @"_ZN4core3ptr42drop_in_place$LT$alloc..string..String$GT$17h3a49f2094255b10bE"(%"alloc::string::String"* %_1) unnamed_addr #1 {
+define hidden void @"_ZN4core3ptr42drop_in_place$LT$alloc..string..String$GT$17hcc7ba4cc11772688E"(%"alloc::string::String"* %_1) unnamed_addr #1 {
 start:
   %0 = bitcast %"alloc::string::String"* %_1 to %"alloc::vec::Vec<u8>"*
 ; call core::ptr::drop_in_place<alloc::vec::Vec<u8>>
-  call void @"_ZN4core3ptr46drop_in_place$LT$alloc..vec..Vec$LT$u8$GT$$GT$17h0c06a50e45c48524E"(%"alloc::vec::Vec<u8>"* %0) #8
+  call void @"_ZN4core3ptr46drop_in_place$LT$alloc..vec..Vec$LT$u8$GT$$GT$17h5669628b7b860272E"(%"alloc::vec::Vec<u8>"* %0) #8
   br label %bb1
 
 bb1:                                              ; preds = %start
@@ -338,16 +309,16 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::drop_in_place<alloc::vec::Vec<u8>>
 ; Function Attrs: nounwind
-define hidden void @"_ZN4core3ptr46drop_in_place$LT$alloc..vec..Vec$LT$u8$GT$$GT$17h0c06a50e45c48524E"(%"alloc::vec::Vec<u8>"* %_1) unnamed_addr #1 {
+define hidden void @"_ZN4core3ptr46drop_in_place$LT$alloc..vec..Vec$LT$u8$GT$$GT$17h5669628b7b860272E"(%"alloc::vec::Vec<u8>"* %_1) unnamed_addr #1 {
 start:
 ; call <alloc::vec::Vec<T,A> as core::ops::drop::Drop>::drop
-  call void @"_ZN70_$LT$alloc..vec..Vec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17he3a2499c004f4985E"(%"alloc::vec::Vec<u8>"* align 4 %_1) #8
+  call void @"_ZN70_$LT$alloc..vec..Vec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h85ad7d567e86ca84E"(%"alloc::vec::Vec<u8>"* align 4 %_1) #8
   br label %bb2
 
 bb2:                                              ; preds = %start
   %0 = bitcast %"alloc::vec::Vec<u8>"* %_1 to { i8*, i32 }*
 ; call core::ptr::drop_in_place<alloc::raw_vec::RawVec<u8>>
-  call void @"_ZN4core3ptr53drop_in_place$LT$alloc..raw_vec..RawVec$LT$u8$GT$$GT$17h136cb79c6aefffe8E"({ i8*, i32 }* %0) #8
+  call void @"_ZN4core3ptr53drop_in_place$LT$alloc..raw_vec..RawVec$LT$u8$GT$$GT$17hbdbdadabcbb52aa4E"({ i8*, i32 }* %0) #8
   br label %bb1
 
 bb1:                                              ; preds = %bb2
@@ -356,10 +327,10 @@ bb1:                                              ; preds = %bb2
 
 ; core::ptr::drop_in_place<alloc::raw_vec::RawVec<u8>>
 ; Function Attrs: nounwind
-define hidden void @"_ZN4core3ptr53drop_in_place$LT$alloc..raw_vec..RawVec$LT$u8$GT$$GT$17h136cb79c6aefffe8E"({ i8*, i32 }* %_1) unnamed_addr #1 {
+define hidden void @"_ZN4core3ptr53drop_in_place$LT$alloc..raw_vec..RawVec$LT$u8$GT$$GT$17hbdbdadabcbb52aa4E"({ i8*, i32 }* %_1) unnamed_addr #1 {
 start:
 ; call <alloc::raw_vec::RawVec<T,A> as core::ops::drop::Drop>::drop
-  call void @"_ZN77_$LT$alloc..raw_vec..RawVec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hccc54f83170a3e24E"({ i8*, i32 }* align 4 %_1) #8
+  call void @"_ZN77_$LT$alloc..raw_vec..RawVec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hdf0d3a4e041e23d8E"({ i8*, i32 }* align 4 %_1) #8
   br label %bb1
 
 bb1:                                              ; preds = %start
@@ -368,25 +339,25 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::unique::Unique<T>::new_unchecked
 ; Function Attrs: inlinehint nounwind
-define hidden i8* @"_ZN4core3ptr6unique15Unique$LT$T$GT$13new_unchecked17h6ce61fd9efd76bb1E"(i8* %ptr) unnamed_addr #0 {
+define hidden i8* @"_ZN4core3ptr6unique15Unique$LT$T$GT$13new_unchecked17h2011bc8dafb099dfE"(i8* %ptr) unnamed_addr #0 {
 start:
   %0 = alloca i8*, align 4
   store i8* %ptr, i8** %0, align 4
-  %1 = load i8*, i8** %0, align 4, !nonnull !1, !noundef !1
+  %1 = load i8*, i8** %0, align 4, !nonnull !0, !noundef !0
   ret i8* %1
 }
 
 ; core::ptr::unique::Unique<T>::cast
 ; Function Attrs: inlinehint nounwind
-define hidden i8* @"_ZN4core3ptr6unique15Unique$LT$T$GT$4cast17h4c1a4f5f62c29de1E"(i8* %self) unnamed_addr #0 {
+define hidden i8* @"_ZN4core3ptr6unique15Unique$LT$T$GT$4cast17heac485f9b526667fE"(i8* %self) unnamed_addr #0 {
 start:
 ; call core::ptr::unique::Unique<T>::as_ptr
-  %_3 = call i8* @"_ZN4core3ptr6unique15Unique$LT$T$GT$6as_ptr17hd192c210b0f5fbf4E"(i8* %self) #8
+  %_3 = call i8* @"_ZN4core3ptr6unique15Unique$LT$T$GT$6as_ptr17ha4a67637f8c6a328E"(i8* %self) #8
   br label %bb1
 
 bb1:                                              ; preds = %start
 ; call core::ptr::unique::Unique<T>::new_unchecked
-  %0 = call i8* @"_ZN4core3ptr6unique15Unique$LT$T$GT$13new_unchecked17h6ce61fd9efd76bb1E"(i8* %_3) #8
+  %0 = call i8* @"_ZN4core3ptr6unique15Unique$LT$T$GT$13new_unchecked17h2011bc8dafb099dfE"(i8* %_3) #8
   br label %bb2
 
 bb2:                                              ; preds = %bb1
@@ -395,20 +366,20 @@ bb2:                                              ; preds = %bb1
 
 ; core::ptr::unique::Unique<T>::as_ptr
 ; Function Attrs: inlinehint nounwind
-define hidden i8* @"_ZN4core3ptr6unique15Unique$LT$T$GT$6as_ptr17hd192c210b0f5fbf4E"(i8* %self) unnamed_addr #0 {
+define hidden i8* @"_ZN4core3ptr6unique15Unique$LT$T$GT$6as_ptr17ha4a67637f8c6a328E"(i8* %self) unnamed_addr #0 {
 start:
   ret i8* %self
 }
 
 ; core::ptr::mut_ptr::<impl *mut T>::guaranteed_eq
 ; Function Attrs: inlinehint nounwind
-define hidden zeroext i1 @"_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$13guaranteed_eq17hac030b793b5f0540E"(i8* %self, i8* %other) unnamed_addr #0 {
+define hidden zeroext i1 @"_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$13guaranteed_eq17h89c38ed6e0964b19E"(i8* %self, i8* %other) unnamed_addr #0 {
 start:
   %0 = alloca i8, align 1
   %1 = icmp eq i8* %self, %other
   %2 = zext i1 %1 to i8
   store i8 %2, i8* %0, align 1
-  %3 = load i8, i8* %0, align 1, !range !3, !noundef !1
+  %3 = load i8, i8* %0, align 1, !range !2, !noundef !0
   %4 = trunc i8 %3 to i1
   br label %bb1
 
@@ -418,13 +389,13 @@ bb1:                                              ; preds = %start
 
 ; core::ptr::mut_ptr::<impl *mut T>::is_null
 ; Function Attrs: inlinehint nounwind
-define hidden zeroext i1 @"_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$7is_null17haa35439b93932f8eE"(i8* %self) unnamed_addr #0 {
+define hidden zeroext i1 @"_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$7is_null17h7737a613dc252a37E"(i8* %self) unnamed_addr #0 {
 start:
   br label %bb1
 
 bb1:                                              ; preds = %start
 ; call core::ptr::mut_ptr::<impl *mut T>::guaranteed_eq
-  %0 = call zeroext i1 @"_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$13guaranteed_eq17hac030b793b5f0540E"(i8* %self, i8* null) #8
+  %0 = call zeroext i1 @"_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$13guaranteed_eq17h89c38ed6e0964b19E"(i8* %self, i8* null) #8
   br label %bb2
 
 bb2:                                              ; preds = %bb1
@@ -433,7 +404,7 @@ bb2:                                              ; preds = %bb1
 
 ; core::ptr::metadata::from_raw_parts_mut
 ; Function Attrs: inlinehint nounwind
-define hidden { [0 x i8]*, i32 } @_ZN4core3ptr8metadata18from_raw_parts_mut17h044a58a37b169fecE({}* %data_address, i32 %metadata) unnamed_addr #0 {
+define hidden { [0 x i8]*, i32 } @_ZN4core3ptr8metadata18from_raw_parts_mut17he542eb3a3b5d453cE({}* %data_address, i32 %metadata) unnamed_addr #0 {
 start:
   %_4 = alloca { i8*, i32 }, align 4
   %_3 = alloca %"core::ptr::metadata::PtrRepr<[u8]>", align 4
@@ -462,35 +433,35 @@ start:
 
 ; core::ptr::non_null::NonNull<T>::new_unchecked
 ; Function Attrs: inlinehint nounwind
-define hidden i8* @"_ZN4core3ptr8non_null16NonNull$LT$T$GT$13new_unchecked17ha9838eb3c470bcaeE"(i8* %ptr) unnamed_addr #0 {
+define hidden i8* @"_ZN4core3ptr8non_null16NonNull$LT$T$GT$13new_unchecked17h2d217b8cd4f71397E"(i8* %ptr) unnamed_addr #0 {
 start:
   %0 = alloca i8*, align 4
   store i8* %ptr, i8** %0, align 4
-  %1 = load i8*, i8** %0, align 4, !nonnull !1, !noundef !1
+  %1 = load i8*, i8** %0, align 4, !nonnull !0, !noundef !0
   ret i8* %1
 }
 
 ; core::ptr::non_null::NonNull<T>::as_ptr
 ; Function Attrs: inlinehint nounwind
-define hidden i8* @"_ZN4core3ptr8non_null16NonNull$LT$T$GT$6as_ptr17h9935f85cd1a716c2E"(i8* %self) unnamed_addr #0 {
+define hidden i8* @"_ZN4core3ptr8non_null16NonNull$LT$T$GT$6as_ptr17h8c6679e61bd27a62E"(i8* %self) unnamed_addr #0 {
 start:
   ret i8* %self
 }
 
 ; core::hint::unreachable_unchecked
 ; Function Attrs: inlinehint noreturn nounwind
-define internal void @_ZN4core4hint21unreachable_unchecked17h690eda2e4121bad9E() unnamed_addr #2 {
+define internal void @_ZN4core4hint21unreachable_unchecked17h676d343bcc6730e7E() unnamed_addr #2 {
 start:
   unreachable
 }
 
 ; core::alloc::layout::Layout::from_size_align_unchecked
 ; Function Attrs: inlinehint nounwind
-define internal { i32, i32 } @_ZN4core5alloc6layout6Layout25from_size_align_unchecked17h8f5e14c9223b458fE(i32 %size, i32 %align) unnamed_addr #0 {
+define internal { i32, i32 } @_ZN4core5alloc6layout6Layout25from_size_align_unchecked17hfe2560697d34749dE(i32 %size, i32 %align) unnamed_addr #0 {
 start:
   %0 = alloca { i32, i32 }, align 4
-; call core::mem::valid_align::ValidAlign::new_unchecked
-  %_4 = call i32 @_ZN4core3mem11valid_align10ValidAlign13new_unchecked17h159f84d42f48a82dE(i32 %align) #8, !range !6
+; call core::num::nonzero::NonZeroUsize::new_unchecked
+  %_4 = call i32 @_ZN4core3num7nonzero12NonZeroUsize13new_unchecked17h848f7a96f93fa40eE(i32 %align) #8, !range !5
   br label %bb1
 
 bb1:                                              ; preds = %start
@@ -501,7 +472,7 @@ bb1:                                              ; preds = %start
   %3 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %0, i32 0, i32 0
   %4 = load i32, i32* %3, align 4
   %5 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %0, i32 0, i32 1
-  %6 = load i32, i32* %5, align 4, !range !6, !noundef !1
+  %6 = load i32, i32* %5, align 4, !range !5, !noundef !0
   %7 = insertvalue { i32, i32 } undef, i32 %4, 0
   %8 = insertvalue { i32, i32 } %7, i32 %6, 1
   ret { i32, i32 } %8
@@ -509,7 +480,7 @@ bb1:                                              ; preds = %start
 
 ; core::alloc::layout::Layout::size
 ; Function Attrs: inlinehint nounwind
-define internal i32 @_ZN4core5alloc6layout6Layout4size17hea145c46d0b9e870E({ i32, i32 }* align 4 %self) unnamed_addr #0 {
+define internal i32 @_ZN4core5alloc6layout6Layout4size17hf3717cb15091e7c7E({ i32, i32 }* align 4 %self) unnamed_addr #0 {
 start:
   %0 = bitcast { i32, i32 }* %self to i32*
   %1 = load i32, i32* %0, align 4
@@ -518,26 +489,21 @@ start:
 
 ; core::alloc::layout::Layout::align
 ; Function Attrs: inlinehint nounwind
-define internal i32 @_ZN4core5alloc6layout6Layout5align17h77d0f57912c1948fE({ i32, i32 }* align 4 %self) unnamed_addr #0 {
+define internal i32 @_ZN4core5alloc6layout6Layout5align17h9d418767b356e799E({ i32, i32 }* align 4 %self) unnamed_addr #0 {
 start:
   %0 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %self, i32 0, i32 1
-  %_3 = load i32, i32* %0, align 4, !range !6, !noundef !1
-; call core::mem::valid_align::ValidAlign::as_nonzero
-  %_2 = call i32 @_ZN4core3mem11valid_align10ValidAlign10as_nonzero17h12d4d12631c12789E(i32 %_3) #8, !range !5
+  %_2 = load i32, i32* %0, align 4, !range !5, !noundef !0
+; call core::num::nonzero::NonZeroUsize::get
+  %1 = call i32 @_ZN4core3num7nonzero12NonZeroUsize3get17h4f58588270053797E(i32 %_2) #8
   br label %bb1
 
 bb1:                                              ; preds = %start
-; call core::num::nonzero::NonZeroUsize::get
-  %1 = call i32 @_ZN4core3num7nonzero12NonZeroUsize3get17hda3007188dd0b24cE(i32 %_2) #8
-  br label %bb2
-
-bb2:                                              ; preds = %bb1
   ret i32 %1
 }
 
 ; core::alloc::layout::Layout::array
 ; Function Attrs: inlinehint nounwind
-define hidden { i32, i32 } @_ZN4core5alloc6layout6Layout5array17hbea74e45354ebacbE(i32 %n) unnamed_addr #0 {
+define hidden { i32, i32 } @_ZN4core5alloc6layout6Layout5array17hcb9e61e28f4f1d77E(i32 %n) unnamed_addr #0 {
 start:
   %_3 = alloca { i32, i32 }, align 4
   %0 = alloca { i32, i32 }, align 4
@@ -545,27 +511,27 @@ start:
 
 bb1:                                              ; preds = %start
 ; call core::num::<impl usize>::checked_mul
-  %1 = call { i32, i32 } @"_ZN4core3num23_$LT$impl$u20$usize$GT$11checked_mul17h63592c0d3afcef74E"(i32 1, i32 %n) #8
+  %1 = call { i32, i32 } @"_ZN4core3num23_$LT$impl$u20$usize$GT$11checked_mul17hfc22d7494272cb4aE"(i32 1, i32 %n) #8
   %_5.0 = extractvalue { i32, i32 } %1, 0
   %_5.1 = extractvalue { i32, i32 } %1, 1
   br label %bb2
 
 bb2:                                              ; preds = %bb1
 ; call core::option::Option<T>::ok_or
-  %2 = call { i32, i32 } @"_ZN4core6option15Option$LT$T$GT$5ok_or17h95a4c0cacfcfa8aeE"(i32 %_5.0, i32 %_5.1) #8
+  %2 = call { i32, i32 } @"_ZN4core6option15Option$LT$T$GT$5ok_or17h000fb3db8f9e397cE"(i32 %_5.0, i32 %_5.1) #8
   %_4.0 = extractvalue { i32, i32 } %2, 0
   %_4.1 = extractvalue { i32, i32 } %2, 1
   br label %bb3
 
 bb3:                                              ; preds = %bb2
 ; call <core::result::Result<T,E> as core::ops::try_trait::Try>::branch
-  %3 = call { i32, i32 } @"_ZN79_$LT$core..result..Result$LT$T$C$E$GT$$u20$as$u20$core..ops..try_trait..Try$GT$6branch17hc967d4cadfebdebdE"(i32 %_4.0, i32 %_4.1) #8
+  %3 = call { i32, i32 } @"_ZN79_$LT$core..result..Result$LT$T$C$E$GT$$u20$as$u20$core..ops..try_trait..Try$GT$6branch17hac5c4cb29a587f1dE"(i32 %_4.0, i32 %_4.1) #8
   store { i32, i32 } %3, { i32, i32 }* %_3, align 4
   br label %bb4
 
 bb4:                                              ; preds = %bb3
   %4 = bitcast { i32, i32 }* %_3 to i32*
-  %_9 = load i32, i32* %4, align 4, !range !7, !noundef !1
+  %_9 = load i32, i32* %4, align 4, !range !4, !noundef !0
   switch i32 %_9, label %bb6 [
     i32 0, label %bb5
     i32 1, label %bb7
@@ -582,7 +548,7 @@ bb5:                                              ; preds = %bb4
 
 bb7:                                              ; preds = %bb4
 ; call <core::result::Result<T,F> as core::ops::try_trait::FromResidual<core::result::Result<core::convert::Infallible,E>>>::from_residual
-  %7 = call { i32, i32 } @"_ZN153_$LT$core..result..Result$LT$T$C$F$GT$$u20$as$u20$core..ops..try_trait..FromResidual$LT$core..result..Result$LT$core..convert..Infallible$C$E$GT$$GT$$GT$13from_residual17h6d84b636774a6cddE"(%"core::panic::location::Location"* align 4 bitcast (<{ i8*, [12 x i8] }>* @alloc46 to %"core::panic::location::Location"*)) #8
+  %7 = call { i32, i32 } @"_ZN153_$LT$core..result..Result$LT$T$C$F$GT$$u20$as$u20$core..ops..try_trait..FromResidual$LT$core..result..Result$LT$core..convert..Infallible$C$E$GT$$GT$$GT$13from_residual17h60c4a28218780ed9E"(%"core::panic::location::Location"* align 4 bitcast (<{ i8*, [12 x i8] }>* @alloc14 to %"core::panic::location::Location"*)) #8
   store { i32, i32 } %7, { i32, i32 }* %0, align 4
   br label %bb8
 
@@ -593,14 +559,14 @@ bb11:                                             ; preds = %bb10, %bb8
   %8 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %0, i32 0, i32 0
   %9 = load i32, i32* %8, align 4
   %10 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %0, i32 0, i32 1
-  %11 = load i32, i32* %10, align 4, !range !0, !noundef !1
+  %11 = load i32, i32* %10, align 4
   %12 = insertvalue { i32, i32 } undef, i32 %9, 0
   %13 = insertvalue { i32, i32 } %12, i32 %11, 1
   ret { i32, i32 } %13
 
 bb9:                                              ; preds = %bb5
 ; call core::alloc::layout::Layout::from_size_align_unchecked
-  %14 = call { i32, i32 } @_ZN4core5alloc6layout6Layout25from_size_align_unchecked17h8f5e14c9223b458fE(i32 %val, i32 1) #8
+  %14 = call { i32, i32 } @_ZN4core5alloc6layout6Layout25from_size_align_unchecked17hfe2560697d34749dE(i32 %val, i32 1) #8
   %_13.0 = extractvalue { i32, i32 } %14, 0
   %_13.1 = extractvalue { i32, i32 } %14, 1
   br label %bb10
@@ -615,7 +581,7 @@ bb10:                                             ; preds = %bb9
 
 ; core::option::Option<T>::ok_or
 ; Function Attrs: inlinehint nounwind
-define hidden { i32, i32 } @"_ZN4core6option15Option$LT$T$GT$5ok_or17h95a4c0cacfcfa8aeE"(i32 %0, i32 %1) unnamed_addr #0 {
+define hidden { i32, i32 } @"_ZN4core6option15Option$LT$T$GT$5ok_or17h000fb3db8f9e397cE"(i32 %0, i32 %1) unnamed_addr #0 {
 start:
   %_7 = alloca i8, align 1
   %2 = alloca { i32, i32 }, align 4
@@ -627,7 +593,7 @@ start:
   store i8 0, i8* %_7, align 1
   store i8 1, i8* %_7, align 1
   %5 = bitcast { i32, i32 }* %self to i32*
-  %_3 = load i32, i32* %5, align 4, !range !7, !noundef !1
+  %_3 = load i32, i32* %5, align 4, !range !4, !noundef !0
   switch i32 %_3, label %bb2 [
     i32 0, label %bb1
     i32 1, label %bb3
@@ -656,13 +622,13 @@ bb3:                                              ; preds = %start
   br label %bb6
 
 bb6:                                              ; preds = %bb1, %bb3
-  %14 = load i8, i8* %_7, align 1, !range !3, !noundef !1
+  %14 = load i8, i8* %_7, align 1, !range !2, !noundef !0
   %15 = trunc i8 %14 to i1
   br i1 %15, label %bb5, label %bb4
 
 bb4:                                              ; preds = %bb5, %bb6
   %16 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %2, i32 0, i32 0
-  %17 = load i32, i32* %16, align 4, !range !7, !noundef !1
+  %17 = load i32, i32* %16, align 4, !range !4, !noundef !0
   %18 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %2, i32 0, i32 1
   %19 = load i32, i32* %18, align 4
   %20 = insertvalue { i32, i32 } undef, i32 %17, 0
@@ -675,7 +641,7 @@ bb5:                                              ; preds = %bb6
 
 ; core::result::Result<T,E>::unwrap_unchecked
 ; Function Attrs: inlinehint nounwind
-define hidden { i32, i32 } @"_ZN4core6result19Result$LT$T$C$E$GT$16unwrap_unchecked17h40b42165d28397bcE"(i32 %0, i32 %1, %"core::panic::location::Location"* align 4 %2) unnamed_addr #0 {
+define hidden { i32, i32 } @"_ZN4core6result19Result$LT$T$C$E$GT$16unwrap_unchecked17h0aca60cbd7cb7942E"(i32 %0, i32 %1, %"core::panic::location::Location"* align 4 %2) unnamed_addr #0 {
 start:
   %self = alloca { i32, i32 }, align 4
   %3 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %self, i32 0, i32 0
@@ -683,7 +649,7 @@ start:
   %4 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %self, i32 0, i32 1
   store i32 %1, i32* %4, align 4
   %5 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %self, i32 0, i32 1
-  %6 = load i32, i32* %5, align 4, !range !0, !noundef !1
+  %6 = load i32, i32* %5, align 4
   %7 = icmp eq i32 %6, 0
   %_2 = select i1 %7, i32 1, i32 0
   switch i32 %_2, label %bb2 [
@@ -698,9 +664,9 @@ bb3:                                              ; preds = %start
   %8 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %self, i32 0, i32 0
   %t.0 = load i32, i32* %8, align 4
   %9 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %self, i32 0, i32 1
-  %t.1 = load i32, i32* %9, align 4, !range !6, !noundef !1
+  %t.1 = load i32, i32* %9, align 4, !range !5, !noundef !0
   %10 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %self, i32 0, i32 1
-  %11 = load i32, i32* %10, align 4, !range !0, !noundef !1
+  %11 = load i32, i32* %10, align 4
   %12 = icmp eq i32 %11, 0
   %_4 = select i1 %12, i32 1, i32 0
   %13 = icmp eq i32 %_4, 0
@@ -708,7 +674,7 @@ bb3:                                              ; preds = %start
 
 bb1:                                              ; preds = %start
 ; call core::hint::unreachable_unchecked
-  call void @_ZN4core4hint21unreachable_unchecked17h690eda2e4121bad9E() #9
+  call void @_ZN4core4hint21unreachable_unchecked17h676d343bcc6730e7E() #9
   unreachable
 
 bb4:                                              ; preds = %bb5, %bb3
@@ -722,17 +688,17 @@ bb5:                                              ; preds = %bb3
 
 ; <T as core::convert::From<T>>::from
 ; Function Attrs: nounwind
-define hidden void @"_ZN50_$LT$T$u20$as$u20$core..convert..From$LT$T$GT$$GT$4from17hd2334010f2ba18d2E"() unnamed_addr #1 {
+define hidden void @"_ZN50_$LT$T$u20$as$u20$core..convert..From$LT$T$GT$$GT$4from17hcb9a821214d3c86cE"() unnamed_addr #1 {
 start:
   ret void
 }
 
 ; <T as core::convert::Into<U>>::into
 ; Function Attrs: nounwind
-define hidden i8* @"_ZN50_$LT$T$u20$as$u20$core..convert..Into$LT$U$GT$$GT$4into17he1e44b884a298c61E"(i8* %self) unnamed_addr #1 {
+define hidden i8* @"_ZN50_$LT$T$u20$as$u20$core..convert..Into$LT$U$GT$$GT$4into17h7499b7781fb34902E"(i8* %self) unnamed_addr #1 {
 start:
 ; call <core::ptr::non_null::NonNull<T> as core::convert::From<core::ptr::unique::Unique<T>>>::from
-  %0 = call i8* @"_ZN119_$LT$core..ptr..non_null..NonNull$LT$T$GT$$u20$as$u20$core..convert..From$LT$core..ptr..unique..Unique$LT$T$GT$$GT$$GT$4from17h47222f8f6e27f3e6E"(i8* %self) #8
+  %0 = call i8* @"_ZN119_$LT$core..ptr..non_null..NonNull$LT$T$GT$$u20$as$u20$core..convert..From$LT$core..ptr..unique..Unique$LT$T$GT$$GT$$GT$4from17h40befd3173ad9418E"(i8* %self) #8
   br label %bb1
 
 bb1:                                              ; preds = %start
@@ -741,16 +707,16 @@ bb1:                                              ; preds = %start
 
 ; alloc::vec::Vec<T,A>::as_mut_ptr
 ; Function Attrs: inlinehint nounwind
-define hidden i8* @"_ZN5alloc3vec16Vec$LT$T$C$A$GT$10as_mut_ptr17h6925155e5ce2e3e6E"(%"alloc::vec::Vec<u8>"* align 4 %self) unnamed_addr #0 {
+define hidden i8* @"_ZN5alloc3vec16Vec$LT$T$C$A$GT$10as_mut_ptr17h2c19dc0de6ecb563E"(%"alloc::vec::Vec<u8>"* align 4 %self) unnamed_addr #0 {
 start:
   %_2 = bitcast %"alloc::vec::Vec<u8>"* %self to { i8*, i32 }*
 ; call alloc::raw_vec::RawVec<T,A>::ptr
-  %ptr = call i8* @"_ZN5alloc7raw_vec19RawVec$LT$T$C$A$GT$3ptr17h45de98ae1c9372efE"({ i8*, i32 }* align 4 %_2) #8
+  %ptr = call i8* @"_ZN5alloc7raw_vec19RawVec$LT$T$C$A$GT$3ptr17h9948c387e456be1eE"({ i8*, i32 }* align 4 %_2) #8
   br label %bb1
 
 bb1:                                              ; preds = %start
 ; call core::ptr::mut_ptr::<impl *mut T>::is_null
-  %_5 = call zeroext i1 @"_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$7is_null17haa35439b93932f8eE"(i8* %ptr) #8
+  %_5 = call zeroext i1 @"_ZN4core3ptr7mut_ptr31_$LT$impl$u20$$BP$mut$u20$T$GT$7is_null17h7737a613dc252a37E"(i8* %ptr) #8
   br label %bb2
 
 bb2:                                              ; preds = %bb1
@@ -764,7 +730,7 @@ bb3:                                              ; preds = %bb2
 
 ; alloc::alloc::dealloc
 ; Function Attrs: inlinehint nounwind
-define internal void @_ZN5alloc5alloc7dealloc17h5bfdafafa29a8744E(i8* %ptr, i32 %0, i32 %1) unnamed_addr #0 {
+define internal void @_ZN5alloc5alloc7dealloc17h987fb8445c9af23cE(i8* %ptr, i32 %0, i32 %1) unnamed_addr #0 {
 start:
   %layout = alloca { i32, i32 }, align 4
   %2 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %layout, i32 0, i32 0
@@ -772,12 +738,12 @@ start:
   %3 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %layout, i32 0, i32 1
   store i32 %1, i32* %3, align 4
 ; call core::alloc::layout::Layout::size
-  %_4 = call i32 @_ZN4core5alloc6layout6Layout4size17hea145c46d0b9e870E({ i32, i32 }* align 4 %layout) #8
+  %_4 = call i32 @_ZN4core5alloc6layout6Layout4size17hf3717cb15091e7c7E({ i32, i32 }* align 4 %layout) #8
   br label %bb1
 
 bb1:                                              ; preds = %start
 ; call core::alloc::layout::Layout::align
-  %_6 = call i32 @_ZN4core5alloc6layout6Layout5align17h77d0f57912c1948fE({ i32, i32 }* align 4 %layout) #8
+  %_6 = call i32 @_ZN4core5alloc6layout6Layout5align17h9d418767b356e799E({ i32, i32 }* align 4 %layout) #8
   br label %bb2
 
 bb2:                                              ; preds = %bb1
@@ -790,7 +756,7 @@ bb3:                                              ; preds = %bb2
 
 ; alloc::raw_vec::RawVec<T,A>::current_memory
 ; Function Attrs: nounwind
-define hidden void @"_ZN5alloc7raw_vec19RawVec$LT$T$C$A$GT$14current_memory17ha405a44b7d398180E"(%"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>"* sret(%"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>") %0, { i8*, i32 }* align 4 %self) unnamed_addr #1 {
+define hidden void @"_ZN5alloc7raw_vec19RawVec$LT$T$C$A$GT$14current_memory17h7d78fdba6636e9ffE"(%"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>"* sret(%"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>") %0, { i8*, i32 }* align 4 %self) unnamed_addr #1 {
 start:
   %_9 = alloca { i8*, { i32, i32 } }, align 4
   %_2 = alloca i8, align 1
@@ -813,7 +779,7 @@ bb2:                                              ; preds = %bb4
   br label %bb3
 
 bb3:                                              ; preds = %bb1, %bb2
-  %4 = load i8, i8* %_2, align 1, !range !3, !noundef !1
+  %4 = load i8, i8* %_2, align 1, !range !2, !noundef !0
   %5 = trunc i8 %4 to i1
   br i1 %5, label %bb5, label %bb6
 
@@ -821,14 +787,14 @@ bb6:                                              ; preds = %bb3
   %6 = getelementptr inbounds { i8*, i32 }, { i8*, i32 }* %self, i32 0, i32 1
   %_8 = load i32, i32* %6, align 4
 ; call core::alloc::layout::Layout::array
-  %7 = call { i32, i32 } @_ZN4core5alloc6layout6Layout5array17hbea74e45354ebacbE(i32 %_8) #8
+  %7 = call { i32, i32 } @_ZN4core5alloc6layout6Layout5array17hcb9e61e28f4f1d77E(i32 %_8) #8
   %_7.0 = extractvalue { i32, i32 } %7, 0
   %_7.1 = extractvalue { i32, i32 } %7, 1
   br label %bb7
 
 bb5:                                              ; preds = %bb3
-  %8 = getelementptr inbounds %"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>", %"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>"* %0, i32 0, i32 1
-  store i32 0, i32* %8, align 4
+  %8 = bitcast %"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>"* %0 to {}**
+  store {}* null, {}** %8, align 4
   br label %bb11
 
 bb11:                                             ; preds = %bb10, %bb5
@@ -836,21 +802,21 @@ bb11:                                             ; preds = %bb10, %bb5
 
 bb7:                                              ; preds = %bb6
 ; call core::result::Result<T,E>::unwrap_unchecked
-  %9 = call { i32, i32 } @"_ZN4core6result19Result$LT$T$C$E$GT$16unwrap_unchecked17h40b42165d28397bcE"(i32 %_7.0, i32 %_7.1, %"core::panic::location::Location"* align 4 bitcast (<{ i8*, [12 x i8] }>* @alloc48 to %"core::panic::location::Location"*)) #8
+  %9 = call { i32, i32 } @"_ZN4core6result19Result$LT$T$C$E$GT$16unwrap_unchecked17h0aca60cbd7cb7942E"(i32 %_7.0, i32 %_7.1, %"core::panic::location::Location"* align 4 bitcast (<{ i8*, [12 x i8] }>* @alloc16 to %"core::panic::location::Location"*)) #8
   %layout.0 = extractvalue { i32, i32 } %9, 0
   %layout.1 = extractvalue { i32, i32 } %9, 1
   br label %bb8
 
 bb8:                                              ; preds = %bb7
   %10 = bitcast { i8*, i32 }* %self to i8**
-  %_12 = load i8*, i8** %10, align 4, !nonnull !1, !noundef !1
+  %_12 = load i8*, i8** %10, align 4, !nonnull !0, !noundef !0
 ; call core::ptr::unique::Unique<T>::cast
-  %_11 = call i8* @"_ZN4core3ptr6unique15Unique$LT$T$GT$4cast17h4c1a4f5f62c29de1E"(i8* %_12) #8
+  %_11 = call i8* @"_ZN4core3ptr6unique15Unique$LT$T$GT$4cast17heac485f9b526667fE"(i8* %_12) #8
   br label %bb9
 
 bb9:                                              ; preds = %bb8
 ; call <T as core::convert::Into<U>>::into
-  %_10 = call i8* @"_ZN50_$LT$T$u20$as$u20$core..convert..Into$LT$U$GT$$GT$4into17he1e44b884a298c61E"(i8* %_11) #8
+  %_10 = call i8* @"_ZN50_$LT$T$u20$as$u20$core..convert..Into$LT$U$GT$$GT$4into17h7499b7781fb34902E"(i8* %_11) #8
   br label %bb10
 
 bb10:                                             ; preds = %bb9
@@ -871,12 +837,12 @@ bb10:                                             ; preds = %bb9
 
 ; alloc::raw_vec::RawVec<T,A>::ptr
 ; Function Attrs: inlinehint nounwind
-define hidden i8* @"_ZN5alloc7raw_vec19RawVec$LT$T$C$A$GT$3ptr17h45de98ae1c9372efE"({ i8*, i32 }* align 4 %self) unnamed_addr #0 {
+define hidden i8* @"_ZN5alloc7raw_vec19RawVec$LT$T$C$A$GT$3ptr17h9948c387e456be1eE"({ i8*, i32 }* align 4 %self) unnamed_addr #0 {
 start:
   %0 = bitcast { i8*, i32 }* %self to i8**
-  %_2 = load i8*, i8** %0, align 4, !nonnull !1, !noundef !1
+  %_2 = load i8*, i8** %0, align 4, !nonnull !0, !noundef !0
 ; call core::ptr::unique::Unique<T>::as_ptr
-  %1 = call i8* @"_ZN4core3ptr6unique15Unique$LT$T$GT$6as_ptr17hd192c210b0f5fbf4E"(i8* %_2) #8
+  %1 = call i8* @"_ZN4core3ptr6unique15Unique$LT$T$GT$6as_ptr17ha4a67637f8c6a328E"(i8* %_2) #8
   br label %bb1
 
 bb1:                                              ; preds = %start
@@ -885,7 +851,7 @@ bb1:                                              ; preds = %start
 
 ; <alloc::alloc::Global as core::alloc::Allocator>::deallocate
 ; Function Attrs: inlinehint nounwind
-define internal void @"_ZN63_$LT$alloc..alloc..Global$u20$as$u20$core..alloc..Allocator$GT$10deallocate17h75bfc19a11590206E"(%"alloc::alloc::Global"* align 1 %self, i8* %ptr, i32 %0, i32 %1) unnamed_addr #0 {
+define internal void @"_ZN63_$LT$alloc..alloc..Global$u20$as$u20$core..alloc..Allocator$GT$10deallocate17he48508b399f465e0E"(%"alloc::alloc::Global"* align 1 %self, i8* %ptr, i32 %0, i32 %1) unnamed_addr #0 {
 start:
   %layout = alloca { i32, i32 }, align 4
   %2 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %layout, i32 0, i32 0
@@ -893,7 +859,7 @@ start:
   %3 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %layout, i32 0, i32 1
   store i32 %1, i32* %3, align 4
 ; call core::alloc::layout::Layout::size
-  %_4 = call i32 @_ZN4core5alloc6layout6Layout4size17hea145c46d0b9e870E({ i32, i32 }* align 4 %layout) #8
+  %_4 = call i32 @_ZN4core5alloc6layout6Layout4size17hf3717cb15091e7c7E({ i32, i32 }* align 4 %layout) #8
   br label %bb1
 
 bb1:                                              ; preds = %start
@@ -905,16 +871,16 @@ bb5:                                              ; preds = %bb1
 
 bb2:                                              ; preds = %bb1
 ; call core::ptr::non_null::NonNull<T>::as_ptr
-  %_6 = call i8* @"_ZN4core3ptr8non_null16NonNull$LT$T$GT$6as_ptr17h9935f85cd1a716c2E"(i8* %ptr) #8
+  %_6 = call i8* @"_ZN4core3ptr8non_null16NonNull$LT$T$GT$6as_ptr17h8c6679e61bd27a62E"(i8* %ptr) #8
   br label %bb3
 
 bb3:                                              ; preds = %bb2
   %5 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %layout, i32 0, i32 0
   %_8.0 = load i32, i32* %5, align 4
   %6 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %layout, i32 0, i32 1
-  %_8.1 = load i32, i32* %6, align 4, !range !6, !noundef !1
+  %_8.1 = load i32, i32* %6, align 4, !range !5, !noundef !0
 ; call alloc::alloc::dealloc
-  call void @_ZN5alloc5alloc7dealloc17h5bfdafafa29a8744E(i8* %_6, i32 %_8.0, i32 %_8.1) #8
+  call void @_ZN5alloc5alloc7dealloc17h987fb8445c9af23cE(i8* %_6, i32 %_8.0, i32 %_8.1) #8
   br label %bb4
 
 bb4:                                              ; preds = %bb3
@@ -926,17 +892,17 @@ bb6:                                              ; preds = %bb5, %bb4
 
 ; <alloc::vec::Vec<T,A> as core::ops::drop::Drop>::drop
 ; Function Attrs: nounwind
-define hidden void @"_ZN70_$LT$alloc..vec..Vec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17he3a2499c004f4985E"(%"alloc::vec::Vec<u8>"* align 4 %self) unnamed_addr #1 {
+define hidden void @"_ZN70_$LT$alloc..vec..Vec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h85ad7d567e86ca84E"(%"alloc::vec::Vec<u8>"* align 4 %self) unnamed_addr #1 {
 start:
 ; call alloc::vec::Vec<T,A>::as_mut_ptr
-  %_3 = call i8* @"_ZN5alloc3vec16Vec$LT$T$C$A$GT$10as_mut_ptr17h6925155e5ce2e3e6E"(%"alloc::vec::Vec<u8>"* align 4 %self) #8
+  %_3 = call i8* @"_ZN5alloc3vec16Vec$LT$T$C$A$GT$10as_mut_ptr17h2c19dc0de6ecb563E"(%"alloc::vec::Vec<u8>"* align 4 %self) #8
   br label %bb1
 
 bb1:                                              ; preds = %start
   %0 = getelementptr inbounds %"alloc::vec::Vec<u8>", %"alloc::vec::Vec<u8>"* %self, i32 0, i32 1
   %_5 = load i32, i32* %0, align 4
 ; call core::ptr::slice_from_raw_parts_mut
-  %1 = call { [0 x i8]*, i32 } @_ZN4core3ptr24slice_from_raw_parts_mut17h70963263456a4c0aE(i8* %_3, i32 %_5) #8
+  %1 = call { [0 x i8]*, i32 } @_ZN4core3ptr24slice_from_raw_parts_mut17hb819f903dc78bdacE(i8* %_3, i32 %_5) #8
   %_2.0 = extractvalue { [0 x i8]*, i32 } %1, 0
   %_2.1 = extractvalue { [0 x i8]*, i32 } %1, 1
   br label %bb2
@@ -950,17 +916,17 @@ bb3:                                              ; preds = %bb2
 
 ; <alloc::raw_vec::RawVec<T,A> as core::ops::drop::Drop>::drop
 ; Function Attrs: nounwind
-define hidden void @"_ZN77_$LT$alloc..raw_vec..RawVec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hccc54f83170a3e24E"({ i8*, i32 }* align 4 %self) unnamed_addr #1 {
+define hidden void @"_ZN77_$LT$alloc..raw_vec..RawVec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hdf0d3a4e041e23d8E"({ i8*, i32 }* align 4 %self) unnamed_addr #1 {
 start:
   %_2 = alloca %"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>", align 4
 ; call alloc::raw_vec::RawVec<T,A>::current_memory
-  call void @"_ZN5alloc7raw_vec19RawVec$LT$T$C$A$GT$14current_memory17ha405a44b7d398180E"(%"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>"* sret(%"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>") %_2, { i8*, i32 }* align 4 %self) #8
+  call void @"_ZN5alloc7raw_vec19RawVec$LT$T$C$A$GT$14current_memory17h7d78fdba6636e9ffE"(%"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>"* sret(%"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>") %_2, { i8*, i32 }* align 4 %self) #8
   br label %bb1
 
 bb1:                                              ; preds = %start
-  %0 = getelementptr inbounds %"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>", %"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>"* %_2, i32 0, i32 1
-  %1 = load i32, i32* %0, align 4, !range !0, !noundef !1
-  %2 = icmp eq i32 %1, 0
+  %0 = bitcast %"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>"* %_2 to {}**
+  %1 = load {}*, {}** %0, align 4
+  %2 = icmp eq {}* %1, null
   %_4 = select i1 %2, i32 0, i32 1
   %3 = icmp eq i32 %_4, 1
   br i1 %3, label %bb2, label %bb4
@@ -969,17 +935,17 @@ bb2:                                              ; preds = %bb1
   %4 = bitcast %"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>"* %_2 to %"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>::Some"*
   %5 = bitcast %"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>::Some"* %4 to { i8*, { i32, i32 } }*
   %6 = bitcast { i8*, { i32, i32 } }* %5 to i8**
-  %ptr = load i8*, i8** %6, align 4, !nonnull !1, !noundef !1
+  %ptr = load i8*, i8** %6, align 4, !nonnull !0, !noundef !0
   %7 = bitcast %"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>"* %_2 to %"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>::Some"*
   %8 = bitcast %"core::option::Option<(core::ptr::non_null::NonNull<u8>, core::alloc::layout::Layout)>::Some"* %7 to { i8*, { i32, i32 } }*
   %9 = getelementptr inbounds { i8*, { i32, i32 } }, { i8*, { i32, i32 } }* %8, i32 0, i32 1
   %10 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %9, i32 0, i32 0
   %layout.0 = load i32, i32* %10, align 4
   %11 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %9, i32 0, i32 1
-  %layout.1 = load i32, i32* %11, align 4, !range !6, !noundef !1
+  %layout.1 = load i32, i32* %11, align 4, !range !5, !noundef !0
   %_7 = bitcast { i8*, i32 }* %self to %"alloc::alloc::Global"*
 ; call <alloc::alloc::Global as core::alloc::Allocator>::deallocate
-  call void @"_ZN63_$LT$alloc..alloc..Global$u20$as$u20$core..alloc..Allocator$GT$10deallocate17h75bfc19a11590206E"(%"alloc::alloc::Global"* align 1 %_7, i8* %ptr, i32 %layout.0, i32 %layout.1) #8
+  call void @"_ZN63_$LT$alloc..alloc..Global$u20$as$u20$core..alloc..Allocator$GT$10deallocate17he48508b399f465e0E"(%"alloc::alloc::Global"* align 1 %_7, i8* %ptr, i32 %layout.0, i32 %layout.1) #8
   br label %bb3
 
 bb4:                                              ; preds = %bb3, %bb1
@@ -991,7 +957,7 @@ bb3:                                              ; preds = %bb2
 
 ; <core::result::Result<T,E> as core::ops::try_trait::Try>::branch
 ; Function Attrs: inlinehint nounwind
-define hidden { i32, i32 } @"_ZN79_$LT$core..result..Result$LT$T$C$E$GT$$u20$as$u20$core..ops..try_trait..Try$GT$6branch17hc967d4cadfebdebdE"(i32 %0, i32 %1) unnamed_addr #0 {
+define hidden { i32, i32 } @"_ZN79_$LT$core..result..Result$LT$T$C$E$GT$$u20$as$u20$core..ops..try_trait..Try$GT$6branch17hac5c4cb29a587f1dE"(i32 %0, i32 %1) unnamed_addr #0 {
 start:
   %_6 = alloca %"core::result::Result<core::convert::Infallible, core::alloc::layout::LayoutError>::Err", align 1
   %2 = alloca { i32, i32 }, align 4
@@ -1001,7 +967,7 @@ start:
   %4 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %self, i32 0, i32 1
   store i32 %1, i32* %4, align 4
   %5 = bitcast { i32, i32 }* %self to i32*
-  %_2 = load i32, i32* %5, align 4, !range !7, !noundef !1
+  %_2 = load i32, i32* %5, align 4, !range !4, !noundef !0
   switch i32 %_2, label %bb2 [
     i32 0, label %bb3
     i32 1, label %bb1
@@ -1031,7 +997,7 @@ bb1:                                              ; preds = %start
 
 bb4:                                              ; preds = %bb3, %bb1
   %15 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %2, i32 0, i32 0
-  %16 = load i32, i32* %15, align 4, !range !7, !noundef !1
+  %16 = load i32, i32* %15, align 4, !range !4, !noundef !0
   %17 = getelementptr inbounds { i32, i32 }, { i32, i32 }* %2, i32 0, i32 1
   %18 = load i32, i32* %17, align 4
   %19 = insertvalue { i32, i32 } undef, i32 %16, 0
@@ -1041,14 +1007,14 @@ bb4:                                              ; preds = %bb3, %bb1
 
 ; probe1::probe
 ; Function Attrs: nounwind
-define hidden void @_ZN6probe15probe17hf0faa204b06b0d2eE() unnamed_addr #1 {
+define hidden void @_ZN6probe15probe17hccc69bb3a067b126E() unnamed_addr #1 {
 start:
   %_10 = alloca [1 x { i8*, i32* }], align 4
   %_3 = alloca %"core::fmt::Arguments", align 4
   %res = alloca %"alloc::string::String", align 4
   %_1 = alloca %"alloc::string::String", align 4
 ; call core::fmt::ArgumentV1::new_lower_exp
-  %0 = call { i8*, i32* } @_ZN4core3fmt10ArgumentV113new_lower_exp17h7031b2d99bba48b2E(i32* align 4 bitcast (<{ [4 x i8] }>* @alloc5 to i32*)) #8
+  %0 = call { i8*, i32* } @_ZN4core3fmt10ArgumentV113new_lower_exp17h8e154801d527845cE(i32* align 4 bitcast (<{ [4 x i8] }>* @alloc5 to i32*)) #8
   %_11.0 = extractvalue { i8*, i32* } %0, 0
   %_11.1 = extractvalue { i8*, i32* } %0, 1
   br label %bb1
@@ -1061,12 +1027,12 @@ bb1:                                              ; preds = %start
   store i32* %_11.1, i32** %3, align 4
   %_7.0 = bitcast [1 x { i8*, i32* }]* %_10 to [0 x { i8*, i32* }]*
 ; call core::fmt::Arguments::new_v1
-  call void @_ZN4core3fmt9Arguments6new_v117ha17c6590b40874b1E(%"core::fmt::Arguments"* sret(%"core::fmt::Arguments") %_3, [0 x { [0 x i8]*, i32 }]* align 4 bitcast (<{ i8*, [4 x i8] }>* @alloc3 to [0 x { [0 x i8]*, i32 }]*), i32 1, [0 x { i8*, i32* }]* align 4 %_7.0, i32 1) #8
+  call void @_ZN4core3fmt9Arguments6new_v117h8b058f324ffa8ca3E(%"core::fmt::Arguments"* sret(%"core::fmt::Arguments") %_3, [0 x { [0 x i8]*, i32 }]* align 4 bitcast (<{ i8*, [4 x i8] }>* @alloc3 to [0 x { [0 x i8]*, i32 }]*), i32 1, [0 x { i8*, i32* }]* align 4 %_7.0, i32 1) #8
   br label %bb2
 
 bb2:                                              ; preds = %bb1
 ; call alloc::fmt::format
-  call void @_ZN5alloc3fmt6format17hef48fa1e0358fc81E(%"alloc::string::String"* sret(%"alloc::string::String") %res, %"core::fmt::Arguments"* %_3) #8
+  call void @_ZN5alloc3fmt6format17h4fc3a5b905f76279E(%"alloc::string::String"* sret(%"alloc::string::String") %res, %"core::fmt::Arguments"* %_3) #8
   br label %bb3
 
 bb3:                                              ; preds = %bb2
@@ -1074,7 +1040,7 @@ bb3:                                              ; preds = %bb2
   %5 = bitcast %"alloc::string::String"* %res to i8*
   call void @llvm.memcpy.p0i8.p0i8.i32(i8* align 4 %4, i8* align 4 %5, i32 12, i1 false)
 ; call core::ptr::drop_in_place<alloc::string::String>
-  call void @"_ZN4core3ptr42drop_in_place$LT$alloc..string..String$GT$17h3a49f2094255b10bE"(%"alloc::string::String"* %_1) #8
+  call void @"_ZN4core3ptr42drop_in_place$LT$alloc..string..String$GT$17hcc7ba4cc11772688E"(%"alloc::string::String"* %_1) #8
   br label %bb4
 
 bb4:                                              ; preds = %bb3
@@ -1083,20 +1049,20 @@ bb4:                                              ; preds = %bb3
 
 ; core::fmt::num::imp::<impl core::fmt::LowerExp for isize>::fmt
 ; Function Attrs: nounwind
-declare dso_local zeroext i1 @"_ZN4core3fmt3num3imp55_$LT$impl$u20$core..fmt..LowerExp$u20$for$u20$isize$GT$3fmt17hf86ff17406c43942E"(i32* align 4, %"core::fmt::Formatter"* align 4) unnamed_addr #1
+declare dso_local zeroext i1 @"_ZN4core3fmt3num3imp55_$LT$impl$u20$core..fmt..LowerExp$u20$for$u20$isize$GT$3fmt17habc463f88e4387dcE"(i32* align 4, %"core::fmt::Formatter"* align 4) unnamed_addr #1
 
 ; core::panicking::panic_fmt
 ; Function Attrs: cold noinline noreturn nounwind
-declare dso_local void @_ZN4core9panicking9panic_fmt17h5b985bbf693fc49aE(%"core::fmt::Arguments"*, %"core::panic::location::Location"* align 4) unnamed_addr #3
-
-; Function Attrs: inaccessiblememonly nofree nosync nounwind willreturn
-declare void @llvm.assume(i1 noundef) #4
+declare dso_local void @_ZN4core9panicking9panic_fmt17h1dc9cdb34d63111bE(%"core::fmt::Arguments"*, %"core::panic::location::Location"* align 4) unnamed_addr #3
 
 ; Function Attrs: nofree nosync nounwind readnone willreturn
-declare i1 @llvm.expect.i1(i1, i1) #5
+declare i1 @llvm.expect.i1(i1, i1) #4
 
 ; Function Attrs: nofree nosync nounwind readnone speculatable willreturn
-declare { i32, i1 } @llvm.umul.with.overflow.i32(i32, i32) #6
+declare { i32, i1 } @llvm.umul.with.overflow.i32(i32, i32) #5
+
+; Function Attrs: inaccessiblememonly nofree nosync nounwind willreturn
+declare void @llvm.assume(i1 noundef) #6
 
 ; Function Attrs: nounwind
 declare dso_local void @__rust_dealloc(i8*, i32, i32) unnamed_addr #1
@@ -1106,24 +1072,22 @@ declare void @llvm.memcpy.p0i8.p0i8.i32(i8* noalias nocapture writeonly, i8* noa
 
 ; alloc::fmt::format
 ; Function Attrs: nounwind
-declare dso_local void @_ZN5alloc3fmt6format17hef48fa1e0358fc81E(%"alloc::string::String"* sret(%"alloc::string::String"), %"core::fmt::Arguments"*) unnamed_addr #1
+declare dso_local void @_ZN5alloc3fmt6format17h4fc3a5b905f76279E(%"alloc::string::String"* sret(%"alloc::string::String"), %"core::fmt::Arguments"*) unnamed_addr #1
 
 attributes #0 = { inlinehint nounwind "target-cpu"="generic" }
 attributes #1 = { nounwind "target-cpu"="generic" }
 attributes #2 = { inlinehint noreturn nounwind "target-cpu"="generic" }
 attributes #3 = { cold noinline noreturn nounwind "target-cpu"="generic" }
-attributes #4 = { inaccessiblememonly nofree nosync nounwind willreturn }
-attributes #5 = { nofree nosync nounwind readnone willreturn }
-attributes #6 = { nofree nosync nounwind readnone speculatable willreturn }
+attributes #4 = { nofree nosync nounwind readnone willreturn }
+attributes #5 = { nofree nosync nounwind readnone speculatable willreturn }
+attributes #6 = { inaccessiblememonly nofree nosync nounwind willreturn }
 attributes #7 = { argmemonly nofree nounwind willreturn }
 attributes #8 = { nounwind }
 attributes #9 = { noreturn nounwind }
 
-!0 = !{i32 0, i32 -2147483647}
-!1 = !{}
-!2 = !{i64 1}
-!3 = !{i8 0, i8 2}
-!4 = !{i64 4}
+!0 = !{}
+!1 = !{i64 1}
+!2 = !{i8 0, i8 2}
+!3 = !{i64 4}
+!4 = !{i32 0, i32 2}
 !5 = !{i32 1, i32 0}
-!6 = !{i32 1, i32 -2147483647}
-!7 = !{i32 0, i32 2}

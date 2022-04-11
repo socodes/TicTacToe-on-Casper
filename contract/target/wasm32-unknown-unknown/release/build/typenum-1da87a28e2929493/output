@@ -1,2 +1,2 @@
-cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/mdidin/Desktop/rpc-workshop-1-template/contract/target/wasm32-unknown-unknown/release/build/typenum-1da87a28e2929493/out/consts.rs
-cargo:rustc-env=TYPENUM_BUILD_OP=/Users/mdidin/Desktop/rpc-workshop-1-template/contract/target/wasm32-unknown-unknown/release/build/typenum-1da87a28e2929493/out/op.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/dylanireland/Desktop/CASPER/rpc-workshop-1/contract/target/wasm32-unknown-unknown/release/build/typenum-1da87a28e2929493/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/dylanireland/Desktop/CASPER/rpc-workshop-1/contract/target/wasm32-unknown-unknown/release/build/typenum-1da87a28e2929493/out/op.rs
