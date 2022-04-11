@@ -30,11 +30,12 @@ Will be updated.
 - Clone this repository.
 - Change current working directory to repository location.
 - Run the scripts:
-``
+
+```
 - npm install
 - node server.js
-``
+```
 
 
 ## External Resources:
-- https://docs.moralis.io/introduction/readme
+- https://casper.network/docs/
