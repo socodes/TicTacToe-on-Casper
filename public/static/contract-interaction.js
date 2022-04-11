@@ -131,6 +131,45 @@ async function buttonPressed() {
             createDeploy();
         }
     }else {
-        sendSign();
+        sendConnectionRequest();
     }
 }
+
+window.addEventListener("signer:locked", (msg) => {
+    setActiveKeyLabel("Not Connected");
+    activeKey = null;
+  });
+  window.addEventListener("signer:unlocked", (msg) => {
+    if (msg.detail.isConnected) {
+      recentlyConnected(msg.detail.activeKey);
+      button.textContent = "Publish";
+    }
+  });
+  window.addEventListener("signer:activeKeyChanged", (msg) => {
+    if (msg.detail.isConnected) {
+      recentlyConnected(msg.detail.activeKey);
+    }
+  });
+  window.addEventListener("signer:connected", (msg) => {
+    recentlyConnected(msg.detail.activeKey);
+    button.textContent = "Publish";
+  });
+  window.addEventListener("signer:disconnected", (msg) => {
+    setActiveKeyLabel("Not Connected");
+    activeKey = null;
+    button.textContent = "Connect";
+  });
+  function recentlyConnected(pubkey) {
+    activeKey = pubkey;
+    setActiveKeyLabel(pubkey);
+    getHighscore(pubkey);
+  }
+  
+  
+  function setActiveKeyLabel(address) {
+    document.getElementById("connected-account").textContent = "Connected Account: " + address;
+  }
+  
+  function csprToMotes(cspr) {
+    return cspr * 10**9;
+  }
